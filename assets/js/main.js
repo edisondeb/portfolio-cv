@@ -244,33 +244,33 @@ function initContactForm() {
             submitBtn.disabled = true;
             submitBtn.innerHTML = '<i class="fas fa-spinner fa-spin"></i> Enviando...';
 
-            // Simulate form submission (replace with actual Formspree endpoint)
             try {
-                // For Formspree, uncomment and replace URL:
-                // const response = await fetch('https://formspree.io/f/YOUR_FORM_ID', {
-                //     method: 'POST',
-                //     body: new FormData(form),
-                //     headers: {
-                //     'Accept': 'application/json'
-                // }
-                // });
+                // Submit to Formspree
+                const response = await fetch(form.action, {
+                    method: 'POST',
+                    body: new FormData(form),
+                    headers: {
+                        'Accept': 'application/json'
+                    }
+                });
 
-                // Simulated delay
-                await new Promise(resolve => setTimeout(resolve, 1500));
+                if (response.ok) {
+                    // Show success message
+                    submitBtn.innerHTML = '<i class="fas fa-check"></i> ¡Mensaje Enviado!';
+                    submitBtn.classList.add('success');
 
-                // Show success message
-                submitBtn.innerHTML = '<i class="fas fa-check"></i> ¡Mensaje Enviado!';
-                submitBtn.classList.add('success');
+                    // Reset form
+                    form.reset();
 
-                // Reset form
-                form.reset();
-
-                // Reset button after 3 seconds
-                setTimeout(() => {
-                    submitBtn.innerHTML = originalText;
-                    submitBtn.classList.remove('success');
-                    submitBtn.disabled = false;
-                }, 3000);
+                    // Reset button after 3 seconds
+                    setTimeout(() => {
+                        submitBtn.innerHTML = originalText;
+                        submitBtn.classList.remove('success');
+                        submitBtn.disabled = false;
+                    }, 3000);
+                } else {
+                    throw new Error('Error en el envío');
+                }
 
             } catch (error) {
                 // Show error message
