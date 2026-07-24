@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" width="600" height="400">
+  <defs>
+    <linearGradient id="aboutBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0F172A;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1E293B;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="codeGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#38BDF8;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#2563EB;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="600" height="400" fill="url(#aboutBg)" rx="15"/>
+  
+  <!-- Code Window -->
+  <rect x="50" y="40" width="500" height="320" fill="#0D1117" rx="10" stroke="#30363D" stroke-width="2"/>
+  
+  <!-- Window Header -->
+  <rect x="50" y="40" width="500" height="35" fill="#161B22" rx="10"/>
+  <rect x="50" y="65" width="500" height="10" fill="#161B22"/>
+  
+  <!-- Window Dots -->
+  <circle cx="75" cy="57" r="6" fill="#FF5F56"/>
+  <circle cx="95" cy="57" r="6" fill="#FFBD2E"/>
+  <circle cx="115" cy="57" r="6" fill="#27CA40"/>
+  
+  <!-- Code Lines -->
+  <text x="80" y="110" font-family="Consolas, Monaco, monospace" font-size="14" fill="#8B949E">
+    <tspan x="80" dy="0" fill="#FF7B72">const</tspan>
+    <tspan fill="#D2A8FF"> developer</tspan>
+    <tspan fill="#C9D1D9"> = {</tspan>
+  </text>
+  
+  <text x="100" y="135" font-family="Consolas, Monaco, monospace" font-size="14">
+    <tspan fill="#79C0FF">name</tspan>
+    <tspan fill="#C9D1D9">: </tspan>
+    <tspan fill="#A5D6FF">"Edison"</tspan>
+    <tspan fill="#C9D1D9">,</tspan>
+  </text>
+  
+  <text x="100" y="160" font-family="Consolas, Monaco, monospace" font-size="14">
+    <tspan fill="#79C0FF">role</tspan>
+    <tspan fill="#C9D1D9">: </tspan>
+    <tspan fill="#A5D6FF">"Full Stack Developer"</tspan>
+    <tspan fill="#C9D1D9">,</tspan>
+  </text>
+  
+  <text x="100" y="185" font-family="Consolas, Monaco, monospace" font-size="14">
+    <tspan fill="#79C0FF">skills</tspan>
+    <tspan fill="#C9D1D9">: [</tspan>
+  </text>
+  
+  <text x="120" y="210" font-family="Consolas, Monaco, monospace" font-size="14">
+    <tspan fill="#A5D6FF">"HTML5"</tspan>
+    <tspan fill="#C9D1D9">,</tspan>
+    <tspan fill="#A5D6FF"> "CSS3"</tspan>
+    <tspan fill="#C9D1D9">,</tspan>
+    <tspan fill="#A5D6FF"> "JavaScript"</tspan>
+  </text>
+  
+  <text x="120" y="235" font-family="Consolas, Monaco, monospace" font-size="14">
+    <tspan fill="#A5D6FF">"React"</tspan>
+    <tspan fill="#C9D1D9">,</tspan>
+    <tspan fill="#A5D6FF"> "Node.js"</tspan>
+    <tspan fill="#C9D1D9">,</tspan>
+    <tspan fill="#A5D6FF"> "Python"</tspan>
+  </text>
+  
+  <text x="100" y="260" font-family="Consolas, Monaco, monospace" font-size="14">
+    <tspan fill="#C9D1D9">],</tspan>
+  </text>
+  
+  <text x="100" y="285" font-family="Consolas, Monaco, monospace" font-size="14">
+    <tspan fill="#79C0FF">passion</tspan>
+    <tspan fill="#C9D1D9">: </tspan>
+    <tspan fill="#A5D6FF">"Creating amazing apps"</tspan>
+  </text>
+  
+  <text x="80" y="310" font-family="Consolas, Monaco, monospace" font-size="14" fill="#C9D1D9">};</text>
+  
+  <!-- Cursor Blink -->
+  <rect x="80" y="325" width="8" height="16" fill="url(#codeGrad)">
+    <animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite"/>
+  </rect>
+</svg>

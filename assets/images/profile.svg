@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#2563EB;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#38BDF8;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="skinGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#F4D0A0;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#E8B88A;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="400" height="400" fill="url(#bgGrad)" rx="20"/>
+  
+  <!-- Body/Shirt -->
+  <ellipse cx="200" cy="380" rx="120" ry="80" fill="#1E293B"/>
+  <ellipse cx="200" cy="360" rx="100" ry="60" fill="#334155"/>
+  
+  <!-- Neck -->
+  <rect x="175" y="260" width="50" height="40" fill="url(#skinGrad)"/>
+  
+  <!-- Head -->
+  <ellipse cx="200" cy="200" rx="80" ry="90" fill="url(#skinGrad)"/>
+  
+  <!-- Hair -->
+  <ellipse cx="200" cy="140" rx="85" ry="50" fill="#2C3E50"/>
+  <ellipse cx="130" cy="180" rx="30" ry="40" fill="#2C3E50"/>
+  <ellipse cx="270" cy="180" rx="30" ry="40" fill="#2C3E50"/>
+  
+  <!-- Eyes -->
+  <ellipse cx="170" cy="200" rx="12" ry="8" fill="white"/>
+  <ellipse cx="230" cy="200" rx="12" ry="8" fill="white"/>
+  <circle cx="172" cy="200" r="5" fill="#2C3E50"/>
+  <circle cx="232" cy="200" r="5" fill="#2C3E50"/>
+  <circle cx="174" cy="198" r="2" fill="white"/>
+  <circle cx="234" cy="198" r="2" fill="white"/>
+  
+  <!-- Eyebrows -->
+  <path d="M155 185 Q170 180 185 185" stroke="#2C3E50" stroke-width="3" fill="none"/>
+  <path d="M215 185 Q230 180 245 185" stroke="#2C3E50" stroke-width="3" fill="none"/>
+  
+  <!-- Nose -->
+  <path d="M200 210 Q195 225 200 230 Q205 225 200 210" fill="#D4A574"/>
+  
+  <!-- Mouth (smile) -->
+  <path d="M175 250 Q200 270 225 250" stroke="#C0392B" stroke-width="3" fill="none"/>
+  
+  <!-- Glasses (optional - remove if not wanted) -->
+  <circle cx="170" cy="200" r="25" stroke="#1E293B" stroke-width="3" fill="none"/>
+  <circle cx="230" cy="200" r="25" stroke="#1E293B" stroke-width="3" fill="none"/>
+  <line x1="195" y1="200" x2="205" y2="200" stroke="#1E293B" stroke-width="3"/>
+  
+  <!-- Collar -->
+  <path d="M160 310 L200 340 L240 310" stroke="#38BDF8" stroke-width="3" fill="none"/>
+</svg>
