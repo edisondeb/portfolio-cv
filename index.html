@@ -5,47 +5,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     
-    <!-- SEO Meta Tags -->
     <title>Edison Arellano | Ingeniero de Sistemas</title>
     <meta name="description" content="Portafolio profesional de Edison Arellano - Ingeniero de Sistemas con experiencia en mantenimiento de TI, soporte técnico y desarrollo.">
     <meta name="keywords" content="Ingeniero de Sistemas, Técnico TI, Soporte Técnico, Mantenimiento de Computadoras, Redes, Seguridad, Bolivia">
     <meta name="author" content="Edison Arellano">
     
-    <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://edisondb.github.io/portfolio-cv/">
     <meta property="og:title" content="Edison Arellano | Portafolio Profesional">
     <meta property="og:description" content="Ingeniero de Sistemas con experiencia en mantenimiento de TI y soporte técnico.">
-    <meta property="og:image" content="assets/images/profile.jpg">
+    <meta property="og:image" content="assets/images/portafolio.jpeg">
     
-    <!-- Twitter -->
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:url" content="https://edisondb.github.io/portfolio-cv/">
-    <meta name="twitter:title" content="Edison Arellano | Portafolio Profesional">
-    <meta name="twitter:description" content="Ingeniero de Sistemas con experiencia en mantenimiento de TI y soporte técnico.">
-    <meta name="twitter:image" content="assets/images/profile.jpg">
-    
-    <!-- Favicon -->
     <link rel="icon" type="image/png" href="assets/icons/favicon.png">
     
-    <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans+Narrow:wght@400;700&family=PT+Serif:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
     
-    <!-- Font Awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     
-    <!-- AOS (Animate On Scroll) -->
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-    
-    <!-- Custom CSS -->
-    <link rel="stylesheet" href="assets/css/variables.css">
     <link rel="stylesheet" href="assets/css/style.css">
-    <link rel="stylesheet" href="assets/css/responsive.css">
-    <link rel="stylesheet" href="assets/css/animations.css">
     
-    <!-- Schema.org -->
     <script type="application/ld+json">
     {
         "@context": "https://schema.org",
@@ -71,737 +51,357 @@
     }
     </script>
 </head>
-<body>
-    <!-- ============================================
-         NAVBAR
-         ============================================ -->
-    <nav class="navbar" id="navbar">
-        <div class="container">
-            <a href="#" class="nav-logo">
-                <span class="logo-text">EA</span>
-            </a>
-            
-            <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
-                <span class="hamburger"></span>
-            </button>
-            
-            <ul class="nav-menu" id="navMenu">
-                <li class="nav-item">
-                    <a href="#hero" class="nav-link active">Inicio</a>
-                </li>
-                <li class="nav-item">
-                    <a href="#about" class="nav-link">Sobre Mí</a>
-                </li>
-                <li class="nav-item">
-                    <a href="#skills" class="nav-link">Habilidades</a>
-                </li>
-                <li class="nav-item">
-                    <a href="#experience" class="nav-link">Experiencia</a>
-                </li>
-                <li class="nav-item">
-                    <a href="#projects" class="nav-link">Proyectos</a>
-                </li>
-                <li class="nav-item">
-                    <a href="#contact" class="nav-link">Contacto</a>
-                </li>
-            </ul>
-        </div>
-    </nav>
+<body class="home">
 
-    <!-- ============================================
-         HERO SECTION
-         ============================================ -->
-    <section class="hero" id="hero">
-        <div class="container">
-            <div class="hero-content" data-aos="fade-up">
-                <div class="hero-text">
-                    <p class="hero-greeting">Hola, soy</p>
-                    <h1 class="hero-name">Edison Arellano</h1>
-                    <h2 class="hero-title"><span class="text-gradient">Ingeniero de Sistemas</span></h2>
-                    <p class="hero-description">
-                        Profesional con experiencia en mantenimiento de TI, soporte técnico, 
-                        instalación de redes y cámaras de seguridad. Apasionado por la tecnología 
+    <!-- Navigation -->
+    <div class="navigation-wrapper">
+        <div class="site-name">
+            <a href="#">EDISON ARELLANO</a>
+        </div>
+        <div class="top-navigation">
+            <nav role="navigation" id="site-nav" class="nav">
+                <ul>
+                    <li><a href="#about">Sobre Mí</a></li>
+                    <li><a href="#skills">Habilidades</a></li>
+                    <li><a href="#experience">Experiencia</a></li>
+                    <li><a href="#education">Educación</a></li>
+                    <li><a href="#contact">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+
+    <!-- Hero Banner -->
+    <div class="image-wrap">
+        <!-- Add your banner image here: <img src="assets/images/banner.jpg" alt="..."> -->
+    </div>
+
+    <!-- Main Content -->
+    <div id="main" role="main">
+        
+        <!-- Sidebar -->
+        <div class="article-author-side">
+            <img src="assets/images/portafolio.jpeg" class="bio-photo" alt="Edison Arellano Mamani">
+            <h3>Edison Arellano M.</h3>
+            <p>Ingeniero de Sistemas<br>Especialista en Soporte TI y Redes</p>
+            
+            <a href="mailto:edisonamjs@gmail.com" class="author-social" target="_blank">
+                <i class="fa fa-envelope-square"></i> Email
+            </a>
+            <a href="https://github.com/edisondb" class="author-social" target="_blank">
+                <i class="fa fa-github"></i> GitHub
+            </a>
+            <a href="https://www.linkedin.com/in/edison-arellano-0ba27439a" class="author-social" target="_blank">
+                <i class="fa fa-linkedin-square"></i> LinkedIn
+            </a>
+            <a href="assets/files/CV-Edison-Arellano.pdf" download class="author-social">
+                <i class="fa fa-file-pdf-o"></i> Descargar CV
+            </a>
+        </div>
+
+        <!-- Article Content -->
+        <article class="page">
+            <h1>Ingeniero de Sistemas | Soporte TI & Redes</h1>
+            
+            <div class="article-wrap">
+                
+                <!-- About Section -->
+                <div class="about-section" id="about">
+                    <h2 class="impact-headline">Ingeniero de Sistemas | Especialista en Soporte TI</h2>
+                    
+                    <div class="key-metrics">
+                        <div class="metric">
+                            <span class="metric-value">5+</span>
+                            <span class="metric-label">Años de Experiencia</span>
+                        </div>
+                        <div class="metric">
+                            <span class="metric-value">15+</span>
+                            <span class="metric-label">Proyectos Completados</span>
+                        </div>
+                        <div class="metric">
+                            <span class="metric-value">10+</span>
+                            <span class="metric-label">Clientes Satisfechos</span>
+                        </div>
+                    </div>
+                    
+                    <p class="lead-paragraph">
+                        Ingeniero de Sistemas con experiencia en <strong>mantenimiento de TI</strong>, 
+                        <strong>soporte técnico</strong>, <strong>instalación de redes</strong> y 
+                        <strong>cámaras de seguridad</strong>. Apasionado por la tecnología 
                         y las soluciones innovadoras.
                     </p>
                     
-                    <div class="hero-buttons">
-                        <a href="assets/files/CV-Edison-Arellano.pdf" download class="btn btn-primary">
-                            <i class="fas fa-download"></i>
-                            Descargar CV
-                        </a>
-                        <a href="#projects" class="btn btn-secondary">
-                            <i class="fas fa-folder-open"></i>
-                            Ver Proyectos
-                        </a>
+                    <div class="quick-highlights">
+                        <h3>Áreas de Especialización:</h3>
+                        <ul class="compact-list">
+                            <li><i class="fa fa-check-circle"></i> Mantenimiento preventivo y correctivo de equipos de cómputo</li>
+                            <li><i class="fa fa-check-circle"></i> Instalación y configuración de redes estructuradas</li>
+                            <li><i class="fa fa-check-circle"></i> Sistemas de seguridad y cámaras de vigilancia</li>
+                            <li><i class="fa fa-check-circle"></i> Soporte técnico a usuarios y resolución de problemas</li>
+                        </ul>
                     </div>
                     
-                    <div class="hero-social">
-                        <a href="https://github.com/edisondb" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="GitHub">
-                            <i class="fab fa-github"></i>
-                        </a>
-                        <a href="https://www.linkedin.com/in/edison-arellano-0ba27439a" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="LinkedIn">
-                            <i class="fab fa-linkedin-in"></i>
-                        </a>
-                        <a href="mailto:edisonamjs@gmail.com" class="social-link" aria-label="Email">
-                            <i class="fas fa-envelope"></i>
-                        </a>
-                    </div>
-                </div>
-                
-                <div class="hero-image" data-aos="fade-left" data-aos-delay="200">
-                    <div class="image-wrapper">
-                        <img src="assets/images/profile.jpg" alt="Edison Arellano Mamani" class="profile-img">
-                        <div class="image-decoration"></div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        
-        <div class="hero-scroll">
-            <a href="#metrics" class="scroll-indicator" aria-label="Scroll down">
-                <i class="fas fa-chevron-down"></i>
-            </a>
-        </div>
-    </section>
-
-    <!-- ============================================
-         KEY METRICS SECTION
-         ============================================ -->
-    <section class="metrics" id="metrics">
-        <div class="container">
-            <div class="metrics-grid">
-                <div class="metric-item" data-aos="fade-up" data-aos-delay="0">
-                    <div class="metric-icon">
-                        <i class="fas fa-briefcase"></i>
-                    </div>
-                    <span class="metric-value" data-count="5">0</span>
-                    <span class="metric-label">Años de Experiencia</span>
-                </div>
-                
-                <div class="metric-item" data-aos="fade-up" data-aos-delay="100">
-                    <div class="metric-icon">
-                        <i class="fas fa-project-diagram"></i>
-                    </div>
-                    <span class="metric-value" data-count="15">0</span>
-                    <span class="metric-label">Proyectos Completados</span>
-                </div>
-                
-                <div class="metric-item" data-aos="fade-up" data-aos-delay="200">
-                    <div class="metric-icon">
-                        <i class="fas fa-users"></i>
-                    </div>
-                    <span class="metric-value" data-count="10">0</span>
-                    <span class="metric-label">Clientes Satisfechos</span>
-                </div>
-                
-                <div class="metric-item" data-aos="fade-up" data-aos-delay="300">
-                    <div class="metric-icon">
-                        <i class="fas fa-code"></i>
-                    </div>
-                    <span class="metric-value" data-count="20">0</span>
-                    <span class="metric-label">Tecnologías</span>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- ============================================
-         ABOUT SECTION
-         ============================================ -->
-    <section class="about" id="about">
-        <div class="container">
-            <div class="section-header" data-aos="fade-up">
-                <h2 class="section-title">Sobre Mí</h2>
-                <p class="section-subtitle">Conoce más sobre mi trayectoria profesional</p>
-            </div>
-            
-            <div class="about-content">
-                <div class="about-image" data-aos="fade-right">
-                    <div class="about-img-wrapper">
-                        <img src="assets/images/about.jpg" alt="Sobre Edison" class="about-img">
-                    </div>
-                </div>
-                
-                <div class="about-text" data-aos="fade-left">
-                    <h3 class="about-subtitle">Ingeniero de Sistemas</h3>
-                    <p class="about-description">
-                        Soy un profesional de la tecnología con experiencia en mantenimiento de TI, 
-                        soporte técnico e instalación de infraestructura de red. Me apasiona resolver 
-                        problemas técnicos y garantizar el correcto funcionamiento de los sistemas.
-                    </p>
-                    <p class="about-description">
-                        Mi formación en Ingeniería de Sistemas me ha permitido desarrollar habilidades 
-                        en mantenimiento de equipos, instalación de cámaras de seguridad, puntos de red 
-                        y soporte a usuarios.
-                    </p>
-                    
-                    <div class="about-info">
-                        <div class="info-item">
-                            <i class="fas fa-map-marker-alt"></i>
-                            <span>Cochabamba, Bolivia</span>
-                        </div>
-                        <div class="info-item">
-                            <i class="fas fa-phone"></i>
-                            <span>+591 77600302</span>
-                        </div>
-                        <div class="info-item">
-                            <i class="fas fa-envelope"></i>
-                            <span>edisonamjs@gmail.com</span>
-                        </div>
-                        <div class="info-item">
-                            <i class="fas fa-briefcase"></i>
-                            <span>Disponible para trabajo</span>
+                    <div class="tech-pills">
+                        <h3>Tecnologías y Herramientas:</h3>
+                        <div class="pills-container">
+                            <span class="tech-pill">Hardware</span>
+                            <span class="tech-pill">Redes</span>
+                            <span class="tech-pill">Cámaras</span>
+                            <span class="tech-pill">Soporte TI</span>
+                            <span class="tech-pill">Bases de Datos</span>
+                            <span class="tech-pill">Windows</span>
+                            <span class="tech-pill">Linux</span>
+                            <span class="tech-pill">Reparación</span>
                         </div>
                     </div>
                     
-                    <div class="about-buttons">
-                        <a href="#contact" class="btn btn-primary">
-                            <i class="fas fa-envelope"></i>
-                            Contáctame
-                        </a>
-                        <a href="https://github.com/edisondb" target="_blank" rel="noopener noreferrer" class="btn btn-secondary">
-                            <i class="fab fa-github"></i>
-                            GitHub
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- ============================================
-         SKILLS SECTION
-         ============================================ -->
-    <section class="skills" id="skills">
-        <div class="container">
-            <div class="section-header" data-aos="fade-up">
-                <h2 class="section-title">Habilidades</h2>
-                <p class="section-subtitle">Mis competencias técnicas y tecnologías</p>
-            </div>
-            
-            <div class="skills-content">
-                <!-- Habilidades Técnicas -->
-                <div class="skill-category" data-aos="fade-up">
-                    <h3 class="category-title">
-                        <i class="fas fa-wrench"></i>
-                        Habilidades Técnicas
-                    </h3>
-                    <div class="skills-grid">
-                        <div class="skill-item">
-                            <div class="skill-icon">
-                                <i class="fas fa-tools"></i>
-                            </div>
-                            <div class="skill-info">
-                                <span class="skill-name">Mantenimiento de Equipos</span>
-                                <span class="skill-level expert">Experto</span>
-                            </div>
-                        </div>
-                        
-                        <div class="skill-item">
-                            <div class="skill-icon">
-                                <i class="fas fa-network-wired"></i>
-                            </div>
-                            <div class="skill-info">
-                                <span class="skill-name">Instalación de Redes</span>
-                                <span class="skill-level expert">Experto</span>
-                            </div>
-                        </div>
-                        
-                        <div class="skill-item">
-                            <div class="skill-icon">
-                                <i class="fas fa-video"></i>
-                            </div>
-                            <div class="skill-info">
-                                <span class="skill-name">Cámaras de Seguridad</span>
-                                <span class="skill-level expert">Experto</span>
-                            </div>
-                        </div>
-                        
-                        <div class="skill-item">
-                            <div class="skill-icon">
-                                <i class="fas fa-headset"></i>
-                            </div>
-                            <div class="skill-info">
-                                <span class="skill-name">Soporte Técnico</span>
-                                <span class="skill-level expert">Experto</span>
-                            </div>
-                        </div>
-                        
-                        <div class="skill-item">
-                            <div class="skill-icon">
-                                <i class="fas fa-database"></i>
-                            </div>
-                            <div class="skill-info">
-                                <span class="skill-name">Bases de Datos</span>
-                                <span class="skill-level advanced">Avanzado</span>
-                            </div>
-                        </div>
-                        
-                        <div class="skill-item">
-                            <div class="skill-icon">
-                                <i class="fas fa-laptop-code"></i>
-                            </div>
-                            <div class="skill-info">
-                                <span class="skill-name">Reparación de Computadoras</span>
-                                <span class="skill-level expert">Experto</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                
-                <!-- Habilidades Blandas -->
-                <div class="skill-category" data-aos="fade-up" data-aos-delay="100">
-                    <h3 class="category-title">
-                        <i class="fas fa-users"></i>
-                        Habilidades Blandas
-                    </h3>
-                    <div class="skills-grid">
-                        <div class="skill-item">
-                            <div class="skill-icon">
-                                <i class="fas fa-users"></i>
-                            </div>
-                            <div class="skill-info">
-                                <span class="skill-name">Trabajo en Equipo</span>
-                                <span class="skill-level expert">Experto</span>
-                            </div>
-                        </div>
-                        
-                        <div class="skill-item">
-                            <div class="skill-icon">
-                                <i class="fas fa-bolt"></i>
-                            </div>
-                            <div class="skill-info">
-                                <span class="skill-name">Trabajo bajo Presión</span>
-                                <span class="skill-level expert">Experto</span>
-                            </div>
-                        </div>
-                        
-                        <div class="skill-item">
-                            <div class="skill-icon">
-                                <i class="fas fa-search"></i>
-                            </div>
-                            <div class="skill-info">
-                                <span class="skill-name">Capacidad de Análisis</span>
-                                <span class="skill-level expert">Experto</span>
-                            </div>
-                        </div>
-                        
-                        <div class="skill-item">
-                            <div class="skill-icon">
-                                <i class="fas fa-comments"></i>
-                            </div>
-                            <div class="skill-info">
-                                <span class="skill-name">Comunicación</span>
-                                <span class="skill-level advanced">Avanzado</span>
-                            </div>
-                        </div>
-                        
-                        <div class="skill-item">
-                            <div class="skill-icon">
-                                <i class="fas fa-clock"></i>
-                            </div>
-                            <div class="skill-info">
-                                <span class="skill-name">Organización</span>
-                                <span class="skill-level advanced">Avanzado</span>
-                            </div>
-                        </div>
-                        
-                        <div class="skill-item">
-                            <div class="skill-icon">
-                                <i class="fas fa-lightbulb"></i>
-                            </div>
-                            <div class="skill-info">
-                                <span class="skill-name">Resolución de Problemas</span>
-                                <span class="skill-level expert">Experto</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            
-            <!-- Tech Pills -->
-            <div class="tech-pills-section" data-aos="fade-up">
-                <h3 class="tech-pills-title">Tecnologías y Herramientas</h3>
-                <div class="tech-pills">
-                    <span class="tech-pill hardware">Hardware</span>
-                    <span class="tech-pill redes">Redes</span>
-                    <span class="tech-pill camaras">Cámaras</span>
-                    <span class="tech-pill soporte">Soporte TI</span>
-                    <span class="tech-pill base-datos">Bases de Datos</span>
-                    <span class="tech-pill reparacion">Reparación</span>
-                    <span class="tech-pill mantenimiento">Mantenimiento</span>
-                    <span class="tech-pill windows">Windows</span>
-                    <span class="tech-pill linux">Linux</span>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- ============================================
-         EDUCATION SECTION
-         ============================================ -->
-    <section class="education" id="education">
-        <div class="container">
-            <div class="section-header" data-aos="fade-up">
-                <h2 class="section-title">Educación</h2>
-                <p class="section-subtitle">Mi formación académica</p>
-            </div>
-            
-            <div class="timeline">
-                <div class="timeline-item" data-aos="fade-up">
-                    <div class="timeline-dot"></div>
-                    <div class="timeline-content">
-                        <div class="timeline-header">
-                            <h3 class="timeline-title">Ingeniería de Sistemas</h3>
-                            <span class="timeline-date">2019 - 2024</span>
-                        </div>
-                        <p class="timeline-company">Universidad Adventista de Bolivia</p>
-                        <p class="timeline-description">
-                            Formación en ingeniería de sistemas con enfoque en tecnologías de la información, 
-                            redes, bases de datos y soporte técnico.
-                        </p>
-                        <div class="tech-tags">
-                            <span>Redes</span>
-                            <span>Bases de Datos</span>
-                            <span>Soporte TI</span>
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="timeline-item" data-aos="fade-up" data-aos-delay="100">
-                    <div class="timeline-dot"></div>
-                    <div class="timeline-content">
-                        <div class="timeline-header">
-                            <h3 class="timeline-title">Mantenimiento y Reparación de Computadoras</h3>
-                            <span class="timeline-date">2017 - 2018</span>
-                        </div>
-                        <p class="timeline-company">Instituto Capces</p>
-                        <p class="timeline-description">
-                            Formación técnica en mantenimiento preventivo y correctivo de computadoras, 
-                            diagnóstico de fallas y reparación de equipos.
-                        </p>
-                        <div class="tech-tags">
-                            <span>Hardware</span>
-                            <span>Mantenimiento</span>
-                            <span>Reparación</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- ============================================
-         EXPERIENCE SECTION
-         ============================================ -->
-    <section class="experience" id="experience">
-        <div class="container">
-            <div class="section-header" data-aos="fade-up">
-                <h2 class="section-title">Experiencia</h2>
-                <p class="section-subtitle">Mi trayectoria profesional</p>
-            </div>
-            
-            <div class="timeline">
-                <!-- Experiencia 1 -->
-                <div class="timeline-item" data-aos="fade-up">
-                    <div class="timeline-dot"></div>
-                    <div class="timeline-content">
-                        <div class="timeline-header">
-                            <h3 class="timeline-title">Técnico T.I.</h3>
-                            <span class="timeline-date">2019 - 2022</span>
-                        </div>
-                        <p class="timeline-company">Universidad Adventista de Bolivia</p>
-                        <p class="timeline-description">
-                            Soporte técnico y mantenimiento de infraestructura tecnológica de la universidad.
-                        </p>
-                        
-                        <div class="timeline-details hidden">
-                            <ul class="achievement-list">
-                                <li>Mantenimiento y reparación de equipos de cómputo</li>
-                                <li>Mantenimiento e instalación de cámaras de seguridad</li>
-                                <li>Instalación de puntos de red</li>
-                                <li>Soporte técnico a usuarios</li>
-                            </ul>
-                        </div>
-                        
-                        <button class="toggle-details-btn" data-target="details-1">
-                            <span class="btn-text">Ver más...</span>
-                            <i class="fas fa-chevron-down"></i>
-                        </button>
-                        
-                        <div class="tech-tags">
-                            <span>Hardware</span>
-                            <span>Redes</span>
-                            <span>Cámaras</span>
-                            <span>Soporte TI</span>
-                        </div>
-                    </div>
-                </div>
-                
-                <!-- Experiencia 2 -->
-                <div class="timeline-item" data-aos="fade-up" data-aos-delay="100">
-                    <div class="timeline-dot"></div>
-                    <div class="timeline-content">
-                        <div class="timeline-header">
-                            <h3 class="timeline-title">Práctica Empresarial</h3>
-                            <span class="timeline-date">Marzo 2023 - Julio 2023</span>
-                        </div>
-                        <p class="timeline-company">Banco La Promotora - Sucursal Av. América, Cochabamba</p>
-                        <p class="timeline-description">
-                            Práctica profesional en el área de sistemas del banco, apoyando en pruebas y soporte.
-                        </p>
-                        
-                        <div class="timeline-details hidden">
-                            <ul class="achievement-list">
-                                <li>Pruebas al sistema del banco</li>
-                                <li>Consultas básicas a la base de datos</li>
-                                <li>Soporte remoto a las diferentes oficinas</li>
-                            </ul>
-                        </div>
-                        
-                        <button class="toggle-details-btn" data-target="details-2">
-                            <span class="btn-text">Ver más...</span>
-                            <i class="fas fa-chevron-down"></i>
-                        </button>
-                        
-                        <div class="tech-tags">
-                            <span>Bases de Datos</span>
-                            <span>Soporte Remoto</span>
-                            <span>Pruebas</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- ============================================
-         PROJECTS SECTION
-         ============================================ -->
-    <section class="projects" id="projects">
-        <div class="container">
-            <div class="section-header" data-aos="fade-up">
-                <h2 class="section-title">Proyectos</h2>
-                <p class="section-subtitle">Mis proyectos destacados</p>
-            </div>
-            
-            <div class="projects-grid">
-                <!-- Project 1 -->
-                <div class="project-card" data-aos="fade-up" data-aos-delay="0">
-                    <div class="project-image">
-                        <img src="assets/images/projects/project1.jpg" alt="Proyecto 1">
-                        <div class="project-overlay">
-                            <div class="project-links">
-                                <a href="#" class="project-link" aria-label="Ver demo en vivo">
-                                    <i class="fas fa-external-link-alt"></i>
-                                </a>
-                                <a href="#" class="project-link" aria-label="Ver código fuente">
-                                    <i class="fab fa-github"></i>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="project-content">
-                        <h3 class="project-title">Nombre del Proyecto 1</h3>
-                        <p class="project-description">
-                            Descripción breve del proyecto. Tecnologías utilizadas y características principales.
-                        </p>
-                        <div class="project-tech">
-                            <span>React</span>
-                            <span>Node.js</span>
-                            <span>MongoDB</span>
-                        </div>
-                    </div>
-                </div>
-                
-                <!-- Project 2 -->
-                <div class="project-card" data-aos="fade-up" data-aos-delay="100">
-                    <div class="project-image">
-                        <img src="assets/images/projects/project2.jpg" alt="Proyecto 2">
-                        <div class="project-overlay">
-                            <div class="project-links">
-                                <a href="#" class="project-link" aria-label="Ver demo en vivo">
-                                    <i class="fas fa-external-link-alt"></i>
-                                </a>
-                                <a href="#" class="project-link" aria-label="Ver código fuente">
-                                    <i class="fab fa-github"></i>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="project-content">
-                        <h3 class="project-title">Nombre del Proyecto 2</h3>
-                        <p class="project-description">
-                            Descripción breve del proyecto. Tecnologías utilizadas y características principales.
-                        </p>
-                        <div class="project-tech">
-                            <span>Vue.js</span>
-                            <span>Firebase</span>
-                            <span>Tailwind</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            
-            <div class="projects-cta" data-aos="fade-up">
-                <a href="https://github.com/edisondb" target="_blank" rel="noopener noreferrer" class="btn btn-secondary">
-                    <i class="fab fa-github"></i>
-                    Ver más en GitHub
-                </a>
-            </div>
-        </div>
-    </section>
-
-    <!-- ============================================
-         CERTIFICATIONS SECTION
-         ============================================ -->
-    <section class="certifications" id="certifications">
-        <div class="container">
-            <div class="section-header" data-aos="fade-up">
-                <h2 class="section-title">Certificaciones</h2>
-                <p class="section-subtitle">Mis certificaciones y cursos</p>
-            </div>
-            
-            <div class="certifications-grid">
-                <div class="certification-card" data-aos="fade-up">
-                    <div class="certification-icon">
-                        <i class="fas fa-certificate"></i>
-                    </div>
-                    <h3 class="certification-title">Nombre de la Certificación</h3>
-                    <p class="certification-institution">Institución</p>
-                    <p class="certification-date">2023</p>
-                    <a href="#" class="btn btn-small" target="_blank" rel="noopener noreferrer">
-                        Ver certificado
-                    </a>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- ============================================
-         CONTACT SECTION
-         ============================================ -->
-    <section class="contact" id="contact">
-        <div class="container">
-            <div class="section-header" data-aos="fade-up">
-                <h2 class="section-title">Contacto</h2>
-                <p class="section-subtitle">¿Tienes un proyecto? ¡Hablemos!</p>
-            </div>
-            
-            <div class="contact-content">
-                <div class="contact-info" data-aos="fade-right">
-                    <div class="contact-item">
-                        <div class="contact-icon">
-                            <i class="fas fa-phone"></i>
-                        </div>
-                        <div class="contact-details">
-                            <h4>Teléfono</h4>
-                            <a href="tel:+59177600302">+591 77600302</a>
-                        </div>
-                    </div>
-                    
-                    <div class="contact-item">
-                        <div class="contact-icon">
-                            <i class="fas fa-envelope"></i>
-                        </div>
-                        <div class="contact-details">
-                            <h4>Email</h4>
-                            <a href="mailto:edisonamjs@gmail.com">edisonamjs@gmail.com</a>
-                        </div>
-                    </div>
-                    
-                    <div class="contact-item">
-                        <div class="contact-icon">
-                            <i class="fab fa-linkedin-in"></i>
-                        </div>
-                        <div class="contact-details">
-                            <h4>LinkedIn</h4>
-                            <a href="https://www.linkedin.com/in/edison-arellano-0ba27439a" target="_blank" rel="noopener noreferrer">
-                                linkedin.com/in/edisondb
+                    <div class="cta-section">
+                        <div class="contact-buttons">
+                            <a href="mailto:edisonamjs@gmail.com" class="btn btn-primary">
+                                <i class="fa fa-envelope"></i> Contactar
                             </a>
-                        </div>
-                    </div>
-                    
-                    <div class="contact-item">
-                        <div class="contact-icon">
-                            <i class="fab fa-github"></i>
-                        </div>
-                        <div class="contact-details">
-                            <h4>GitHub</h4>
-                            <a href="https://github.com/edisondb" target="_blank" rel="noopener noreferrer">
-                                github.com/edisondb
+                            <a href="https://linkedin.com/in/edison-arellano-0ba27439a" class="btn btn-secondary" target="_blank">
+                                <i class="fa fa-linkedin"></i> LinkedIn
+                            </a>
+                            <a href="https://github.com/edisondb" class="btn btn-secondary" target="_blank">
+                                <i class="fa fa-github"></i> GitHub
                             </a>
                         </div>
                     </div>
                 </div>
-                
-                <form class="contact-form" data-aos="fade-left" id="contactForm" action="https://formspree.io/f/xwkgjkvp" method="POST">
-                    <div class="form-group">
-                        <label for="name">Nombre</label>
-                        <input type="text" id="name" name="name" required placeholder="Tu nombre">
+
+                <!-- Education -->
+                <div class="category edu" id="education">
+                    <div class="cat-title">
+                        <span class="cat-name">Educación</span>
+                        <span class="cat-head-line"></span>
                     </div>
-                    
-                    <div class="form-group">
-                        <label for="email">Email</label>
-                        <input type="email" id="email" name="email" required placeholder="tu@email.com">
+                    <div class="cat-body">
+                        <div class="listing">
+                            <div class="list-icon"></div>
+                            <div class="list-item">
+                                <div class="title">Universidad Adventista de Bolivia</div>
+                                <div class="item-with-time">
+                                    <span class="item">Ingeniería de Sistemas</span>
+                                    <span class="time">2019<span class="longdash"></span>2024</span>
+                                </div>
+                                <div class="list-more flex-horizontal">
+                                    <span class="item">Formación en ingeniería de sistemas con enfoque en tecnologías de la información</span>
+                                    <span class="item">Especialización en redes, bases de datos y soporte técnico</span>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="listing">
+                            <div class="list-icon"></div>
+                            <div class="list-item">
+                                <div class="title">Instituto Capces</div>
+                                <div class="item-with-time">
+                                    <span class="item">Mantenimiento y Reparación de Computadoras</span>
+                                    <span class="time">2017<span class="longdash"></span>2018</span>
+                                </div>
+                                <div class="list-more flex-horizontal">
+                                    <span class="item">Formación técnica en mantenimiento preventivo y correctivo de computadoras</span>
+                                    <span class="item">Diagnóstico de fallas y reparación de equipos</span>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                    
-                    <div class="form-group">
-                        <label for="subject">Asunto</label>
-                        <input type="text" id="subject" name="subject" required placeholder="Asunto del mensaje">
+                </div>
+
+                <!-- Skills -->
+                <div class="category skills" id="skills">
+                    <div class="cat-title">
+                        <span class="cat-name">Habilidades</span>
+                        <span class="cat-head-line"></span>
                     </div>
-                    
-                    <div class="form-group">
-                        <label for="message">Mensaje</label>
-                        <textarea id="message" name="message" rows="5" required placeholder="Tu mensaje..."></textarea>
+                    <div class="cat-body">
+                        <div class="listing">
+                            <div class="list-icon"></div>
+                            <div class="list-item">
+                                <div class="title">Habilidades Técnicas</div>
+                                <div class="list-more flex-horizontal">
+                                    <span class="columna">
+                                        <i class="fa fa-check-circle"></i>
+                                        Mantenimiento de Equipos
+                                        <span class="dull"> //Experto</span>
+                                    </span>
+                                    <span class="columna">
+                                        <i class="fa fa-check-circle"></i>
+                                        Instalación de Redes
+                                        <span class="dull"> //Experto</span>
+                                    </span>
+                                    <span class="columna">
+                                        <i class="fa fa-check-circle"></i>
+                                        Cámaras de Seguridad
+                                        <span class="dull"> //Experto</span>
+                                    </span>
+                                    <span class="columna">
+                                        <i class="fa fa-check-circle"></i>
+                                        Soporte Técnico
+                                        <span class="dull"> //Experto</span>
+                                    </span>
+                                    <span class="columna">
+                                        <i class="fa fa-check-circle"></i>
+                                        Bases de Datos
+                                        <span class="dull"> //Avanzado</span>
+                                    </span>
+                                    <span class="columna">
+                                        <i class="fa fa-check-circle"></i>
+                                        Reparación de Computadoras
+                                        <span class="dull"> //Experto</span>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="listing">
+                            <div class="list-icon"></div>
+                            <div class="list-item">
+                                <div class="title">Habilidades Blandas</div>
+                                <div class="list-more flex-horizontal">
+                                    <span class="columna">
+                                        <i class="fa fa-check-circle"></i>
+                                        Trabajo en Equipo
+                                        <span class="dull"> //Experto</span>
+                                    </span>
+                                    <span class="columna">
+                                        <i class="fa fa-check-circle"></i>
+                                        Trabajo bajo Presión
+                                        <span class="dull"> //Experto</span>
+                                    </span>
+                                    <span class="columna">
+                                        <i class="fa fa-check-circle"></i>
+                                        Capacidad de Análisis
+                                        <span class="dull"> //Experto</span>
+                                    </span>
+                                    <span class="columna">
+                                        <i class="fa fa-check-circle"></i>
+                                        Comunicación
+                                        <span class="dull"> //Avanzado</span>
+                                    </span>
+                                    <span class="columna">
+                                        <i class="fa fa-check-circle"></i>
+                                        Organización
+                                        <span class="dull"> //Avanzado</span>
+                                    </span>
+                                    <span class="columna">
+                                        <i class="fa fa-check-circle"></i>
+                                        Resolución de Problemas
+                                        <span class="dull"> //Experto</span>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="listing">
+                            <div class="list-icon"></div>
+                            <div class="list-item">
+                                <div class="title">Sistemas Operativos</div>
+                                <div class="list-more flex-horizontal">
+                                    <span class="columna">
+                                        <i class="fa fa-check-circle"></i>
+                                        Windows
+                                        <span class="dull"> //Experto</span>
+                                    </span>
+                                    <span class="columna">
+                                        <i class="fa fa-check-circle"></i>
+                                        Linux
+                                        <span class="dull"> //Avanzado</span>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                    
-                    <button type="submit" class="btn btn-primary btn-block">
-                        <i class="fas fa-paper-plane"></i>
-                        Enviar Mensaje
-                    </button>
-                </form>
+                </div>
+
+                <!-- Work Experience -->
+                <div class="category work" id="experience">
+                    <div class="cat-title">
+                        <span class="cat-name">Experiencia Laboral</span>
+                        <span class="cat-head-line"></span>
+                    </div>
+                    <div class="cat-body timeline">
+                        
+                        <div class="listing">
+                            <div class="list-icon-custom"></div>
+                            <div class="list-item">
+                                <div class="title toggle-details">Técnico T.I.</div>
+                                <div class="item-with-time">
+                                    <span class="item">Universidad Adventista de Bolivia</span>
+                                    <span class="time">2019<span class="longdash"></span>2022</span>
+                                </div>
+                                <div class="list-more-details details hidden">
+                                    <strong>Responsabilidades:</strong><br>
+                                    • Mantenimiento y reparación de equipos de cómputo<br>
+                                    • Mantenimiento e instalación de cámaras de seguridad<br>
+                                    • Instalación de puntos de red<br>
+                                    • Soporte técnico a usuarios<br><br>
+                                    <strong>Habilidades:</strong><br>
+                                    • Hardware, Redes, Cámaras, Soporte TI
+                                </div>
+                                <button class="toggle-button" onclick="toggleDetails(this)">Ver más...</button>
+                            </div>
+                        </div>
+                        
+                        <div class="listing">
+                            <div class="list-icon-custom"></div>
+                            <div class="list-item">
+                                <div class="title toggle-details">Práctica Empresarial</div>
+                                <div class="item-with-time">
+                                    <span class="item">Banco La Promotora - Sucursal Av. América</span>
+                                    <span class="time">Mar 2023<span class="longdash"></span>Jul 2023</span>
+                                </div>
+                                <div class="list-more-details details hidden">
+                                    <strong>Responsabilidades:</strong><br>
+                                    • Pruebas al sistema del banco<br>
+                                    • Consultas básicas a la base de datos<br>
+                                    • Soporte remoto a las diferentes oficinas<br><br>
+                                    <strong>Habilidades:</strong><br>
+                                    • Bases de Datos, Soporte Remoto, Pruebas
+                                </div>
+                                <button class="toggle-button" onclick="toggleDetails(this)">Ver más...</button>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+
+                <!-- Contact Section -->
+                <div class="category contact" id="contact">
+                    <div class="cat-title">
+                        <span class="cat-name">Contacto</span>
+                        <span class="cat-head-line"></span>
+                    </div>
+                    <div class="cat-body">
+                        <div class="contact-info">
+                            <div class="contact-item">
+                                <i class="fa fa-phone"></i>
+                                <span><a href="tel:+59177600302">+591 77600302</a></span>
+                            </div>
+                            <div class="contact-item">
+                                <i class="fa fa-envelope"></i>
+                                <span><a href="mailto:edisonamjs@gmail.com">edisonamjs@gmail.com</a></span>
+                            </div>
+                            <div class="contact-item">
+                                <i class="fa fa-map-marker"></i>
+                                <span>Cochabamba, Bolivia</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
             </div>
-        </div>
-    </section>
+        </article>
+    </div>
 
-    <!-- ============================================
-         FOOTER
-         ============================================ -->
-    <footer class="footer">
-        <div class="container">
-            <div class="footer-content">
-                <div class="footer-logo">
-                    <span class="logo-text">EA</span>
-                    <p class="footer-tagline">Creando experiencias digitales excepcionales</p>
-                </div>
-                
-                <div class="footer-social">
-                    <a href="https://github.com/edisondb" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="GitHub">
-                        <i class="fab fa-github"></i>
-                    </a>
-                    <a href="https://www.linkedin.com/in/edison-arellano-0ba27439a" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="LinkedIn">
-                        <i class="fab fa-linkedin-in"></i>
-                    </a>
-                    <a href="mailto:edison.arellano@email.com" class="social-link" aria-label="Email">
-                        <i class="fas fa-envelope"></i>
-                    </a>
-                </div>
-                
-                <div class="footer-copyright">
-                    <p>&copy; 2026 Edison Arellano. Todos los derechos reservados.</p>
-                </div>
-            </div>
-        </div>
-    </footer>
+    <!-- Footer -->
+    <div class="footer-wrap">
+        <footer>
+            <span>&copy; 2026 Edison Arellano Mamani. Powered by <a href="#">Edison Arellano</a></span>
+        </footer>
+    </div>
 
-    <!-- Back to Top Button -->
-    <a href="#hero" class="back-to-top" id="backToTop" aria-label="Volver arriba">
-        <i class="fas fa-arrow-up"></i>
-    </a>
-
-    <!-- Scripts -->
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="assets/js/main.js"></script>
 </body>
 </html>
